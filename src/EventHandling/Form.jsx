@@ -49,8 +49,8 @@ const Form=()=>{
    </div>
     <div>
      <label>Gender:</label>
-     <label><input type="radio"name="gender" value="Male" checked={data.gender === "Male"} onChange={handleChange}/>Male</label>
-     <label><input type="radio" name="gender" value="Female" checked={data.gender === "Female"} onChange={handleChange}/>Female</label>
+     <label><input type="radio" name="gender" value="Male"   onChange={handleChange}/>Male</label>
+     <label><input type="radio" name="gender" value="Female" onChange={handleChange}/>Female</label>
     </div>
     <div>
     <label>City:</label>
