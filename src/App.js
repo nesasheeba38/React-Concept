@@ -1,12 +1,12 @@
 import './App.css';
-import { ErrorPage } from './ErrorHandling/ErrorPage';
+import { ProductInfo } from './ErrorHandling/ProductInfo';
 // import Form from "./EventHandling/Form";
 
 function App() {
   return (
    <>
    {/* <Form/> */}
-   <ErrorPage/>
+   <ProductInfo/>
    </>
   )
 }

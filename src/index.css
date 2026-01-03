@@ -11,9 +11,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.form-field{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 50%;
-}
+
